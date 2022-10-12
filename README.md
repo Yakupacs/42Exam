@@ -1,0 +1,15 @@
+# SOLUTIONS
+
+- [epur_str](https://github.com/Yakupacs/42Exam/blob/master/src/epur_str.c)
+- [fprime](https://github.com/Yakupacs/42Exam/blob/master/src/fprime.c)
+- [ft_atoi_base](https://github.com/Yakupacs/42Exam/blob/master/src/ft_atoi_base.c)
+- [ft_list_foreach](https://github.com/Yakupacs/42Exam/blob/master/src/ft_list_foreach.c)
+- [ft_list_remove_if](https://github.com/Yakupacs/42Exam/blob/master/src/ft_list_remove_if.c)
+- [ft_range](https://github.com/Yakupacs/42Exam/blob/master/src/ft_range.c)
+- [ft_split](https://github.com/Yakupacs/42Exam/blob/master/src/ft_split.c)
+- [hidenp](https://github.com/Yakupacs/42Exam/blob/master/src/hidenp.c)
+- [rev_wstr](https://github.com/Yakupacs/42Exam/blob/master/src/rev_wstr.c)
+- [rstr_capitalize](https://github.com/Yakupacs/42Exam/blob/master/src/rstr_capitalize.c)
+- [sort_int_tab](https://github.com/Yakupacs/42Exam/blob/master/src/sort_int_tab.c)
+- [sort_list](https://github.com/Yakupacs/42Exam/blob/master/src/sort_list.c)
+- [union](https://github.com/Yakupacs/42Exam/blob/master/src/union.c)
