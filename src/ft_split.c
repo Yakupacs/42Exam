@@ -6,9 +6,26 @@
 /*   By: yacis@student.42istanbul.com.tr <yacis>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/12 16:23:57 by yacis@stude       #+#    #+#             */
-/*   Updated: 2022/10/12 16:23:58 by yacis@stude      ###   ########.fr       */
+/*   Updated: 2022/10/12 21:49:58 by yacis@stude      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+Assignment name  : ft_split
+Expected files   : ft_split.c
+Allowed functions: malloc
+--------------------------------------------------------------------------------
+
+Write a function that takes a string, splits it into words, and returns them as
+a NULL-terminated array of strings.
+
+A "word" is defined as a part of a string delimited either by spaces/tabs/new
+lines, or by the start/end of the string.
+
+Your function must be declared as follows:
+
+char    **ft_split(char *str);
+*/
 
 #include <stdlib.h>
 

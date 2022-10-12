@@ -6,35 +6,9 @@
 /*   By: yacis@student.42istanbul.com.tr <yacis>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/12 16:23:42 by yacis@stude       #+#    #+#             */
-/*   Updated: 2022/10/12 16:23:43 by yacis@stude      ###   ########.fr       */
+/*   Updated: 2022/10/12 21:48:32 by yacis@stude      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <stdio.h>
-#include <stdlib.h>
-
-int	main(int argc, char *argv[]){
-	int number;
-	int i;
-
-	i = 2;
-	number = atoi(argv[1]);
-	if (argc == 2){
-		if (number == 1)
-			printf("1");
-		while (number >= i){
-			if (number % i == 0){
-				printf("%d", i);
-				if (number != i)
-					printf("*");
-				number /= i;
-				i = 1;
-			}
-			i++;
-		}
-	}
-	printf("\n");
-}
 
 /* 
 Assignment name  : fprime
@@ -71,3 +45,29 @@ $
 $> ./fprime 42 21 | cat -e
 $ 
 */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int	main(int argc, char *argv[]){
+	int number;
+	int i;
+
+	i = 2;
+	number = atoi(argv[1]);
+	if (argc == 2){
+		if (number == 1)
+			printf("1");
+		while (number >= i){
+			if (number % i == 0){
+				printf("%d", i);
+				if (number != i)
+					printf("*");
+				number /= i;
+				i = 1;
+			}
+			i++;
+		}
+	}
+	printf("\n");
+}

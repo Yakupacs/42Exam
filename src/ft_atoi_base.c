@@ -6,12 +6,9 @@
 /*   By: yacis@student.42istanbul.com.tr <yacis>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/12 16:23:44 by yacis@stude       #+#    #+#             */
-/*   Updated: 2022/10/12 16:23:45 by yacis@stude      ###   ########.fr       */
+/*   Updated: 2022/10/12 21:48:38 by yacis@stude      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-
-
 
 /* 
 Assignment name  : ft_atoi_base

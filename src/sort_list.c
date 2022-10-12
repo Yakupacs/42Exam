@@ -6,31 +6,9 @@
 /*   By: yacis@student.42istanbul.com.tr <yacis>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/12 16:24:09 by yacis@stude       #+#    #+#             */
-/*   Updated: 2022/10/12 16:24:10 by yacis@stude      ###   ########.fr       */
+/*   Updated: 2022/10/12 21:51:15 by yacis@stude      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "list.h"
-#include <unistd.h>
-
-t_list	*sort_list(t_list *lst, int (*cmp)(int, int)){
-	int	overflow;
-	t_list *tmp;
-
-	tmp = lst;
-	while (lst->next != NULL){
-		if (((*cmp)(lst->data, lst->next->data)) == 0){
-			overflow = lst->data;
-			lst->data = lst->next->data;
-			lst->next->data = overflow;
-			lst = tmp;
-		}
-		else
-			lst = lst->next;
-	}
-	lst = tmp;
-	return (lst);
-}
 
 /* 
 Assignment name  : sort_list
@@ -73,4 +51,26 @@ struct s_list
 	int     data;
 	t_list  *next;
 };
- */
+*/
+
+#include "list.h"
+#include <unistd.h>
+
+t_list	*sort_list(t_list *lst, int (*cmp)(int, int)){
+	int	overflow;
+	t_list *tmp;
+
+	tmp = lst;
+	while (lst->next != NULL){
+		if (((*cmp)(lst->data, lst->next->data)) == 0){
+			overflow = lst->data;
+			lst->data = lst->next->data;
+			lst->next->data = overflow;
+			lst = tmp;
+		}
+		else
+			lst = lst->next;
+	}
+	lst = tmp;
+	return (lst);
+}
