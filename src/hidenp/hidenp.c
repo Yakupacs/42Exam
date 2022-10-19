@@ -6,7 +6,7 @@
 /*   By: yacis@student.42istanbul.com.tr <yacis>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/12 16:23:59 by yacis@stude       #+#    #+#             */
-/*   Updated: 2022/10/12 21:50:15 by yacis@stude      ###   ########.fr       */
+/*   Updated: 2022/10/18 19:28:06 by yacis@stude      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,8 +61,7 @@ int main(int ac, char *av[]){
 	if (ac == 3)
 	{
 		while (av[2][j])
-		{
-				
+		{	
 			if (av[1][i] == av[2][j])
 			{
 				if (i + 1 == len)

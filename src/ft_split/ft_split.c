@@ -6,7 +6,7 @@
 /*   By: yacis@student.42istanbul.com.tr <yacis>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/12 16:23:57 by yacis@stude       #+#    #+#             */
-/*   Updated: 2022/10/12 21:49:58 by yacis@stude      ###   ########.fr       */
+/*   Updated: 2022/10/19 21:45:10 by yacis@stude      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,7 +47,7 @@ char	**ft_split(char *str){
 			return (NULL);
 		while (str[i] != 32 && str[i] != '\t' && str[i] != '\n' && str[i])
 			split[k][j++] = str[i++];
-		while (str[i] == 32 || str[i] == '\t' || str[i] == '\n')
+		while (str[i] == 32 || str[i] == '\t' || str[i] == '\n')
 			i+= 1;
 		split[k][j] = '\0';
 		k += 1;

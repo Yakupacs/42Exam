@@ -6,11 +6,11 @@
 /*   By: yacis@student.42istanbul.com.tr <yacis>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/12 16:24:04 by yacis@stude       #+#    #+#             */
-/*   Updated: 2022/10/12 21:50:44 by yacis@stude      ###   ########.fr       */
+/*   Updated: 2022/10/18 18:29:45 by yacis@stude      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-/* 
+/*
 Write a program that takes one or more strings and, for each argument, puts
 the last character of each word (if it's a letter) in uppercase and the rest
 in lowercase, then displays the result followed by a \n.

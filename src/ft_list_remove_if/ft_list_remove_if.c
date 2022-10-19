@@ -6,7 +6,7 @@
 /*   By: yacis@student.42istanbul.com.tr <yacis>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/12 16:23:51 by yacis@stude       #+#    #+#             */
-/*   Updated: 2022/10/12 21:49:13 by yacis@stude      ###   ########.fr       */
+/*   Updated: 2022/10/18 18:29:55 by yacis@stude      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,7 +39,7 @@ $>
 #include "ft_list.h"
 #include <stdlib.h>
 
-void ft_list_remove_if(t_list **begin_list, void *data_ref, int (*cmp)())
+void	ft_list_remove_if(t_list **begin_list, void *data_ref, int (*cmp)())
 {
 	t_list	*tmp;
 	t_list	*i;
